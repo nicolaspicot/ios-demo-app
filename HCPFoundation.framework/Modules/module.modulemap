@@ -1,0 +1,17 @@
+framework module HCPFoundation {
+    
+    umbrella header "HCPFoundation.h"
+    
+    header "sqlite3.h"
+    header "FMDatabase.h"
+    header "FMDatabasePool.h"
+    header "FMResultSet.h"
+    header "FMResultSet.h"
+    
+    export *
+    module * { export * }
+}
+
+module HCPFoundation.Swift {
+    header "HCPFoundation-Swift.h"
+}

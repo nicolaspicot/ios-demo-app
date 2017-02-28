@@ -1,0 +1,10 @@
+framework module HCPOData {
+  umbrella header "HCPOData.h"
+
+  export *
+  module * { export * }
+}
+
+module HCPOData.Swift {
+    header "HCPOData-Swift.h"
+}
